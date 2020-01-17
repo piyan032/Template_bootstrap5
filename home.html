@@ -18,13 +18,20 @@
 	<title>Template Bootstrap 6</title>
 	
 	<style>
+	
+	.navbar {
+		box-shadow: 5px 10px 25px #bac7a7;
+	}
+	
 	.navbar-brand {
 		letter-spacing: 3px;
 	}
+	
 	.navText {
 		font-family: 'Source Code Pro', monospace;
 		font-family: 'Lobster', cursive;
 	}
+	
 	.navbar-brand i {
 		font-size: 3rem;
 		border-right: 7px double #fff;
@@ -40,7 +47,9 @@
 	}
 	
 	
-
+	.jumbotron .container {
+		padding: 10%;
+	}
 	</style>
 	
 	</head>
@@ -83,11 +92,16 @@
 
 </header>
 
-
+<!-----------		Jumbotron 				--->
 <section>
-
-
-
+	<div class="jumbotron bg-danger text-white">
+		<div class="container">
+			<h1 class="display-4 font-weight-bold">We Can do it</h1>
+			<p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+			<p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
+			<a class="btn btn-warning btn-lg" href="#" role="button">Learn more</a>
+		</div>
+	</div>
 </section>
 </body>
 </html>
