@@ -1,0 +1,150 @@
+	.navbar {
+		box-shadow: 5px 10px 25px #bac7a7;
+	}
+	
+	.navbar-brand {
+		letter-spacing: 3px;
+	}
+	
+	.navText {
+		font-family: 'Source Code Pro', monospace;
+		font-family: 'Lobster', cursive;
+	}
+	
+	.navbar-brand i {
+		font-size: 3rem;
+		border-right: 7px double #fff;
+	}
+	
+	.navbar-text a i {
+		font-size: 1rem;
+		margin: 0 5px;
+		padding: 10px;
+		border-radius: 50px;
+		border: solid 2px #fff;
+
+	}
+	
+	
+	.jumbotron .container {
+		padding: 10%;
+	}
+	
+	.jumbotron {
+		  /* The image used */
+		  background-image: url("https://www.elsetge.cat/myimg/f/3-34876_gudangnya-gambar-dan-hd-wallpaper-keren-pc-komputer.jpg");
+
+		  /* Set a specific height */
+		  min-height: 400px; 
+
+		  /* Create the parallax scrolling effect */
+		  background-attachment: fixed;
+		  background-position: center;
+		  background-repeat: no-repeat;
+		  background-size: cover;
+		  background-position: bottom;
+	}
+	
+	
+	.card {
+		border: none;
+		border-radius: 0;
+	}
+	
+	.card img {
+		height: 200px;
+		width: 200px;
+	}
+	
+	#card1 {
+		  /* The image used */
+		  background-image: url("https://wallpapercave.com/wp/wp3114963.png");
+
+		  /* Set a specific height */
+		  min-height: 700px; 
+
+		  /* Create the parallax scrolling effect */
+		  background-position: center;
+		  background-attachment: fixed;
+		  background-repeat: no-repeat;
+		  background-size: cover;
+	}
+	
+	#card2 {
+		  /* The image used */
+		  background-image: url("https://lh4.googleusercontent.com/proxy/ZcSrCvpmbAjK-260z0V_V5yU1PGM9PN9YcmaQvvRrn9X64xxhK0ie4uzjrVg1Zqm83VLuDEyFw-z7z-6Kfo5U67u1oHsFQDOXLBu0cQpsJ3vDzLJ1zOgxRBIu1t5c15MHt_7Z9IkTg=s0-d");
+
+		  /* Set a specific height */
+		  min-height: 700px; 
+
+		  /* Create the parallax scrolling effect */
+		  background-position: center;
+		  background-attachment: fixed;
+		  background-repeat: no-repeat;
+		  background-size: cover;
+		  
+	}
+
+	.txt-center {
+		padding-top: 40%;
+		text-align: center;
+		color: #fff;
+		font-size: 5rem;
+		font-family: arial;
+	}
+	
+	
+		footer {
+			margin: 0;
+			padding: 0;
+			color: #999;
+		}
+		
+		#card-footer {
+			padding: 5%;
+		}
+		
+		footer h2 {
+			font-family: 'Fruktur', cursive;
+			font-size: 2vw;
+			text-align: center;
+		}
+	
+		footer .fa {
+			font-size: 10vw;
+			margin:0 0 0 30%;
+		}
+	
+		footer .fa-xing {
+			border-right: 7px double #999;
+		}
+		
+		footer ul li {
+			list-style-type: none;
+			text-align: left;
+			font-size: 1vw;
+			line-height: 250%;
+		}
+		
+		.contact i {
+			font-size: 1.5vw;
+			border-radius: 100%;
+			margin: 0;
+		}
+
+		#card-footer {
+			background-color: #fff;
+		}
+		
+		footer #license {
+			padding: 0;
+			margin: 0;	
+			color: #999;
+			font-size: 1vw;
+		}
+		
+
+		#license .fa {
+			font-size: 1vw;
+		}
+		
