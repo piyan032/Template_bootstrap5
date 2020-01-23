@@ -16,13 +16,12 @@
 		border-right: 7px double #fff;
 	}
 	
-	.navbar-text a i {
-		font-size: 1rem;
-		margin: 0 5px;
-		padding: 10px;
-		border-radius: 50px;
+	.navbar-text a .fa {
+		font-size: 15px;
+		width: 30px;
+		padding: 5px 7px;
 		border: solid 2px #fff;
-
+		border-radius: 50%;
 	}
 	
 	
@@ -42,18 +41,22 @@
 		  background-position: center;
 		  background-repeat: no-repeat;
 		  background-size: cover;
-		  background-position: bottom;
+		
 	}
 	
 	
 	.card {
-		border: none;
-		border-radius: 0;
+		border-style: none;
 	}
 	
-	.card img {
+	.card .container {
+		padding: 5%;
+	}
+	
+	.card .col-sm-4 .card-img {
 		height: 200px;
 		width: 200px;
+		margin: 10% 25%;
 	}
 	
 	#card1 {
@@ -95,56 +98,39 @@
 	
 	
 		footer {
-			margin: 0;
-			padding: 0;
+			border-style: none;
 			color: #999;
 		}
 		
-		#card-footer {
-			padding: 5%;
-		}
 		
 		footer h2 {
 			font-family: 'Fruktur', cursive;
-			font-size: 2vw;
 			text-align: center;
 		}
 	
 		footer .fa {
-			font-size: 10vw;
 			margin:0 0 0 30%;
 		}
 	
 		footer .fa-xing {
 			border-right: 7px double #999;
+			font-size: 100px;
 		}
 		
 		footer ul li {
 			list-style-type: none;
 			text-align: left;
-			font-size: 1vw;
 			line-height: 250%;
 		}
 		
 		.contact i {
-			font-size: 1.5vw;
 			border-radius: 100%;
 			margin: 0;
 		}
 
 		#card-footer {
 			background-color: #fff;
+			border: none;
 		}
 		
-		footer #license {
-			padding: 0;
-			margin: 0;	
-			color: #999;
-			font-size: 1vw;
-		}
-		
-
-		#license .fa {
-			font-size: 1vw;
-		}
 		
