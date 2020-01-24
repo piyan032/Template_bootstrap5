@@ -1,3 +1,8 @@
+	
+	html {
+		scroll-behavior: smooth;
+	}
+
 	.navbar {
 		box-shadow: 5px 10px 25px #bac7a7;
 	}
@@ -41,6 +46,7 @@
 		  background-position: center;
 		  background-repeat: no-repeat;
 		  background-size: cover;
+		  border-radius: 0;
 		
 	}
 	
@@ -55,7 +61,8 @@
 		  background-attachment: fixed;
 		  background-position: bottom;
 		  background-repeat: no-repeat;
-		  background-size: cover;	
+		  background-size: cover;
+		  border-radius: 0;
 	}
 	
 	#bg-img-about .box {
@@ -97,6 +104,7 @@
 	
 	.card {
 		border: none;
+		border-radius: none;
 	}
 	
 	#card-about-lineheight {
@@ -116,16 +124,17 @@
 	
 	#card1 {
 		  /* The image used */
-		  background-image: url("https://wallpapercave.com/wp/wp3114963.png");
+		background-image: url("https://wallpapercave.com/wp/wp3114963.png");
 
 		  /* Set a specific height */
-		  min-height: 700px; 
+		min-height: 700px; 
 
 		  /* Create the parallax scrolling effect */
-		  background-position: center;
-		  background-attachment: fixed;
-		  background-repeat: no-repeat;
-		  background-size: cover;
+		background-position: center;
+		background-attachment: fixed;
+		background-repeat: no-repeat;
+		background-size: cover;
+		border-radius: 0;
 	}
 	
 	#card2 {
@@ -140,7 +149,7 @@
 		  background-attachment: fixed;
 		  background-repeat: no-repeat;
 		  background-size: cover;
-		  
+		border-radius: 0;  
 	}
 
 	.txt-center {
@@ -151,9 +160,10 @@
 		font-family: arial;
 	}
 	
-		#card {
-			border-radius: none;
+		.card .bg-danger {
+			border-radius: 0;
 		}
+		
 		
 		footer {
 			border-style: none;
@@ -167,9 +177,6 @@
 			font-size: 2rem;
 		}
 	
-		footer .fa {
-			margin:0 0 0 30%;
-		}
 	
 		footer .fa-xing {
 			border-right: 7px double #fff;
@@ -178,14 +185,17 @@
 		
 		footer ul li {
 			list-style-type: none;
-			text-align: left;
+			text-align: justify;
 			line-height: 250%;
 			font-size: 1rem;
 		}
 		
-		.contact i {
+		.shared ul li i {
+			font-size: 15px;
+			width: 30px;
+			padding: 4px 7px;
+			border: solid 2px #fff;
 			border-radius: 100%;
-			margin: 0;
 		}
 
 		

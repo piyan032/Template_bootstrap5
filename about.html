@@ -14,7 +14,7 @@
 	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-	
+	<script src="jquery/scrolltop.js" type="text/javascript"></script>
 	
 	<script src="https://code.jquery.com/jquery-3.4.1.js"
   integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
@@ -31,7 +31,7 @@
 			$(this).css ("filter", "grayscale(100%)");
 			$(this).css("background","none");
 			} ) ;
-	 } ) ;
+	 }, 2000) ;
 	</script>
 	
 	</head>
@@ -144,19 +144,19 @@
 		<h1 class="card-title">A Best Team</h1>
 			<i class="fa fa-xing" style="font-size: 5vw; color: red	;"></i>
 			<div id="section2" class="card-deck m-2">
-				<div class="card img-about-section2  d-flex align-content-center flex-wrap" style="border: none;">
+				<div class="card img-about-section2 d-block d-flex align-content-center flex-wrap" style="border: none;">
 					<img src="https://cdn-image.hipwee.com/wp-content/uploads/2015/04/browsa.se_.jpg" class="img-responsive card-img">
 				</div>
-				<div class="card img-about-section2 d-flex align-content-center flex-wrap" style="border: none;">
+				<div class="card img-about-section2 d-block d-flex align-content-center flex-wrap" style="border: none;">
 					<img src="https://mas-kulin.com/wp-content/uploads/2018/09/09.-Denim-Fashion-Pria.jpg" class="img-responsive card-img">
 				</div>
-				<div class="card img-about-section2 d-flex align-content-center flex-wrap" style="border: none;">
+				<div class="card img-about-section2 d-block d-flex align-content-center flex-wrap" style="border: none;">
 					<img src="https://kurio-img.kurioapps.com/19/04/24/fd148264-a2f2-466a-867f-b94b4a607d95.jpg" class="img-responsive card-img">
 				</div>
-				<div class="card img-about-section2 d-flex align-content-center flex-wrap" style="border: none;">
+				<div class="card img-about-section2 d-block d-flex align-content-center flex-wrap" style="border: none;">
 					<img src="https://d2pa5gi5n2e1an.cloudfront.net/id/images/article/1134_ID_F/1c.jpg" class="img-responsive card-img">
 				</div>
-				<div class="card img-about-section2 d-flex align-content-center flex-wrap" style="border: none;">
+				<div class="card img-about-section2 d-inline-block d-flex align-content-center flex-wrap" style="border: none;">
 					<img src="https://s2.bukalapak.com/img/763151726/w-1000/SK_71_B.jpg" class="img-responsive card-img">
 					
 				</div>
@@ -168,7 +168,7 @@
 	<div id="card-footer bg-danger" class="card bg-danger">
 		<div class="container">
 			<div class="row">
-				<div class="col-sm-4 text-white">
+				<div class="col-sm-4 text-white text-center">
 					<h2 >- Brands -</h2>
 					<i  class="navbar-brand fa fa-xing"></i><span class="navText"> ane </span>
 				</div>
@@ -183,19 +183,20 @@
 					</div>
 				</div>
 				<div class="col-sm-4 text-white">
-					<div class="contact">
+					<div class="shared">
 						<h2>- Link & Shared -</h2>
 							<ul>
 								<li><i class="img-thumbnail fa fa-skype bg-danger"></i> @kane</li>
 								<li><i class=" img-thumbnail fa fa-linkedin bg-danger"></i> @kane</li>
-								<li><i class="img-thumbnail fa fa-share-alt bg-danger"></i>Shared Sosial</li>
+								<li><i class="img-thumbnail fa fa-share-alt bg-danger"></i> Shared Sosial</li>
 							</ul>
 					</div>
 				</div>
 			</div>
 		</div>
 	</div>
-
 </footer>
+
+<a href="#bg-img-about"  style="position: fixed; right: 0; bottom: 50px;" class="btn btn-lg btn-warning text-white ">Top</a>
 </body>
 </html>
