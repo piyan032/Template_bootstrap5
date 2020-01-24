@@ -29,7 +29,7 @@
 		padding: 10%;
 	}
 	
-	.jumbotron {
+	#bg-img-home {
 		  /* The image used */
 		  background-image: url("https://www.elsetge.cat/myimg/f/3-34876_gudangnya-gambar-dan-hd-wallpaper-keren-pc-komputer.jpg");
 
@@ -44,11 +44,66 @@
 		
 	}
 	
-	
-	.card {
-		border-style: none;
+	#bg-img-about {
+		  /* The image used */
+		  background-image: url("https://jfitzgeraldgroup.com/wp-content/uploads/2016/10/graphic-design-tools-Feature_1290x688_MS.jpg");
+
+		  /* Set a specific height */
+		  min-height: 400px; 
+
+		  /* Create the parallax scrolling effect */
+		  background-attachment: fixed;
+		  background-position: bottom;
+		  background-repeat: no-repeat;
+		  background-size: cover;	
 	}
 	
+	#bg-img-about .box {
+			background-color: rgb(255,0,0); /* Fallback color */
+			background-color: rgba(255,0,0, 0.6); /* Black w/opacity/see-through */
+			top: 0;
+			left: 0;
+			position: absolute;
+			height: 400px;
+			width: 100%;
+	}
+	 .img-about-section2 {
+		filter: grayscale(100%);
+	}
+	
+	.img-about-section2 img {
+		border-radius: 30% 0;
+		border: double 7px #2222;
+		max-height: 350px;
+		max-width: 270px;
+	}
+	
+	#bg-img-about .box .container {
+		text-align: center;
+	}	
+	
+	
+	.img-about-section {
+		  /* The image used */
+		  background-image: url("https://i.graphicmama.com/blog/wp-content/uploads/2016/10/08104236/6.jpg");
+		  /* Set a specific height */
+		  min-height: 600px; 
+		  /* Create the parallax scrolling effect */
+		  background-attachment: fixed;
+		  background-position: center;
+		  background-repeat: no-repeat;
+		  background-size: cover;	
+	}
+	
+	.card {
+		border: none;
+	}
+	
+	#card-about-lineheight {
+		line-height: 200%;
+		padding: 7% 4%;
+		text-align: justify;
+	}
 	.card .container {
 		padding: 5%;
 	}
@@ -56,7 +111,7 @@
 	.card .col-sm-4 .card-img {
 		height: 200px;
 		width: 200px;
-		margin: 10% 25%;
+	
 	}
 	
 	#card1 {
@@ -96,7 +151,10 @@
 		font-family: arial;
 	}
 	
-	
+		#card {
+			border-radius: none;
+		}
+		
 		footer {
 			border-style: none;
 			color: #999;
@@ -106,6 +164,7 @@
 		footer h2 {
 			font-family: 'Fruktur', cursive;
 			text-align: center;
+			font-size: 2rem;
 		}
 	
 		footer .fa {
@@ -113,14 +172,15 @@
 		}
 	
 		footer .fa-xing {
-			border-right: 7px double #999;
-			font-size: 100px;
+			border-right: 7px double #fff;
+			font-size: 10vw;
 		}
 		
 		footer ul li {
 			list-style-type: none;
 			text-align: left;
 			line-height: 250%;
+			font-size: 1rem;
 		}
 		
 		.contact i {
@@ -128,9 +188,4 @@
 			margin: 0;
 		}
 
-		#card-footer {
-			background-color: #fff;
-			border: none;
-		}
-		
 		
